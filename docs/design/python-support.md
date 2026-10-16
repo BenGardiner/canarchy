@@ -1,14 +1,17 @@
----
-title: "Supported Python runtimes"
-status: "accepted"
-affected-command-surface: "packaging, doctor"
----
+# Design Spec: Supported Python Runtimes
 
-# Supported Python runtimes
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Status | Implemented |
+| Command surface | Packaging and `canarchy doctor` |
+| Primary area | Packaging, diagnostics, CI |
+| Related specs | `docs/tests/python-support.md` |
 
 ## Goal
 
-CANarchy should be installable and continuously validated on supported CPython
+CANarchy shall be installable and continuously validated on supported CPython
 versions without weakening the package metadata or relying on development-only
 installation workarounds.
 

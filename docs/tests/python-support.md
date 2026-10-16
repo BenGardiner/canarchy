@@ -1,10 +1,14 @@
----
-title: "Supported Python runtime tests"
-status: "accepted"
-related-design: "docs/design/python-support.md"
----
+# Test Spec: Supported Python Runtimes
 
-# Supported Python runtime tests
+## Document Control
+
+| Field | Value |
+|-------|-------|
+| Status | Implemented |
+| Design doc | `docs/design/python-support.md` |
+| Test file | `tests/test_cli.py`, `.github/workflows/test.yml` |
+
+## Requirement Traceability
 
 | ID | Requirement | Coverage |
 | --- | --- | --- |
