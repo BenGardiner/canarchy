@@ -11,7 +11,9 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 * **Python 3.11 is now a supported CANarchy runtime (#562).** Package metadata,
   diagnostics, lockfile resolution, CI, documentation, and the clean-wheel
-  smoke test now cover Python 3.11 alongside Python 3.12 and 3.13.
+  smoke test now cover Python 3.11 alongside Python 3.12 and 3.13. Runtime
+  dependencies are constrained to versions compatible with the supported API
+  surface.
 
 * DBC signal events now preserve source-frame timestamps, including zero, across file, stdin, and MCP decoding (#525). Signal-only streams retain observation timing without parent-event joins; unknown timestamps remain null.
 

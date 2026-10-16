@@ -5,6 +5,8 @@
 **CANarchy** is a CLI-first CAN security research toolkit with optional REPL and TUI front ends.
 
 The implementation language is Python, and the project uses `uv` for dependency management, virtual environments, and packaging workflows.
+CANarchy supports Python 3.11, 3.12, and 3.13; optional openpilot LogReader
+integration remains documented for Python 3.12.x.
 
 The core design rule is simple:
 
