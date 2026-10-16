@@ -7142,7 +7142,7 @@ class DoctorCommandTests(unittest.TestCase):
         with patch.object(doctor_module.sys, "version_info", (3, 10, 0, "final", 0)):
             check = doctor_module._check_python_version()
         self.assertEqual(check["status"], "fail")
-        self.assertIn("3.11.0", check["detail"])
+        self.assertIn("3.10.0", check["detail"])
         self.assertIsNotNone(check["hint"])
 
     def test_doctor_returns_fail_when_python_can_missing(self) -> None:
